@@ -26,5 +26,6 @@
 - WCAG compliance
 - Pagination on the BulletPointList
 - Include favicon
+- Create meaninful comments
 
 === DONE ===
