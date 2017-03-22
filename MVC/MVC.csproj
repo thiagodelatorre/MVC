@@ -139,6 +139,7 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\_CTA.cshtml" />
     <Content Include="Views\Home\_Bulletin.cshtml" />
+    <Content Include="Views\Shared\DisplayTemplates\BulletPoint.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
