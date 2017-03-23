@@ -8,6 +8,8 @@
 - CTA pointing to Google.com
 
 === NTH ===
+- Use resources files
+- Create CTA as an action link
 - Use bootstrap
 - Change namespace
 - Move CTA and BulletPoint views to a shared Area (or leave them alone on the root)

@@ -4,6 +4,11 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-@{Html.RenderAction("_CTA");}
+<br />
+<div class="container-fluid">
+    @{Html.RenderAction("_CTA");}
+</div>
 
-@{Html.RenderAction("_Bulletin");}
+<div class="container-fluid">
+    @{Html.RenderAction("_Bulletin");}
+</div>

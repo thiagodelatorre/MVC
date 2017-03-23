@@ -1,19 +1,14 @@
 ﻿@model IEnumerable<MVC.Models.BulletPoint>
 
-<table class="table">
-    <tr>
-        <th>
-            @Html.DisplayNameFor(model => model.Point)
-        </th>
-        <th></th>
-    </tr>
+<H1>@Html.DisplayNameFor(model => model.Point)</H1>
 
-@foreach (var item in Model) {
-    <tr>
-        <td>
+<ul>
+
+    @foreach (var item in Model)
+    {
+        <li>
             @Html.DisplayFor(modelItem => item)
-        </td>
-    </tr>
-}
+        </li>
+    }
 
-</table>
+</ul>
