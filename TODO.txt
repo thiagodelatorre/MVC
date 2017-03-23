@@ -21,7 +21,7 @@
 - E2E Test
 - CI
 - Multi-language
-- IoC
+- IoC/DI
 - profiler
 - WCAG compliance
 - Pagination on the BulletPointList
