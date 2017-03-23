@@ -7,7 +7,7 @@ using System.Web.Mvc;
 
 namespace MVC.Controllers
 {
-    public class HomeController : BaseController
+    public class _BulletinController : BaseController
     {
         [OutputCache(Duration = 3600)]
         [ChildActionOnly]

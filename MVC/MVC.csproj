@@ -178,8 +178,8 @@
     </Content>
     <Content Include="Areas\Assignment\Views\Home\Index.cshtml" />
     <Content Include="Areas\Assignment\Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\Home\_CTA.cshtml" />
-    <Content Include="Views\Home\_Bulletin.cshtml" />
+    <Content Include="Views\_CTA\_CTA.cshtml" />
+    <Content Include="Views\_Bulletin\_Bulletin.cshtml" />
     <Content Include="Views\Shared\DisplayTemplates\BulletPoint.cshtml" />
     <Content Include="Scripts\jquery-1.9.1.min.map" />
     <None Include="Web.Debug.config">
