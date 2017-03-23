@@ -8,7 +8,6 @@
 - Fix white background on CTA image
 - Use resources files
 - Create CTA as an action link
-- Use bootstrap
 - Change namespace
 - Move CTA and BulletPoint views to a shared Area (or leave them alone on the root)
 - Define presentation type for BulletPoint
@@ -35,3 +34,4 @@
 - CTA pointing to Google.com
 - Partial view for Bulleted List
 - Image for CTA
+- Use bootstrap
