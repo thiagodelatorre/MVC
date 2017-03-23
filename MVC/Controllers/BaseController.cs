@@ -7,6 +7,7 @@ using System.Web.Mvc;
 
 namespace MVC.Controllers
 {
+    // Use as the base class for all other controllers
     public class BaseController : Controller
     {
         // protecting field for usage on derived controllers

@@ -7,12 +7,14 @@ using System.Web.Mvc;
 
 namespace MVC.Controllers
 {
+    // Use for centralization of Call-to-actions
     public class _CTAController : BaseController
     {
 
-        [ChildActionOnly]
+        [ChildActionOnly] // Ensure this is used only inside of other Actions
         public ActionResult _CTA()
         {
+            // TODO: move this code to its own service (similarly to Service.Bulletin)
             Random r = new Random();
             double chance = r.NextDouble();
 

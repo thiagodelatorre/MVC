@@ -13,6 +13,9 @@ namespace MVC
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
+            // The empty route was moved to the Area responsible for the homepage (Assignment for now). This avoids the need to customize the view engine
+            // http://stackoverflow.com/questions/2140208/how-to-set-a-default-route-to-an-area-in-mvc
+
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",

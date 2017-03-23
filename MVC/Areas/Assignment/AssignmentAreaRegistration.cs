@@ -14,9 +14,10 @@ namespace MVC.Areas.Assignment
 
         public override void RegisterArea(AreaRegistrationContext context) 
         {
+            // Please observe how the area is being accepted as empty. This emplies that the empty route uses the "Assignment_default", don't use it on other Areas
             context.MapRoute(
                 "Assignment_default",
-                "Assignment/{controller}/{action}/{id}",
+                "{area}/{controller}/{action}/{id}",
                 new { area = "Assignment", controller = "Home", action = "Index", id = UrlParameter.Optional }
             );
         }

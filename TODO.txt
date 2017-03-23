@@ -1,15 +1,13 @@
 === TODO ===
+- Include error handling
+- logger
 - Review list of Solution Highlights
 - Merge back to master branch
-- Modular approach: Areas
-- Modular approach: separate layers
-- Remove Service.Bulletin refference from MVC
-- Change page title
-- Change homepage route
 
 === NTH ===
+- Create a Business Layer to isolate the Services from the MVC project
 - Create a BulletPointViewModel for the _Bulletin component and use AutoMapper
-- Fix white background on CTA image
+- Use async/await on the Bulletin Component (since now it uses EF)
 - Use resources files
 - Create CTA as an action link
 - Change namespace
@@ -21,7 +19,6 @@
 - CI
 - Multi-language
 - IoC
-- logger
 - profiler
 - WCAG compliance
 - Pagination on the BulletPointList
@@ -39,3 +36,8 @@
 - Modular approach: Base Classes
 - Move CTA and BulletPoint views to a shared Area (or leave them alone on the root)
 - Create 'Click here' image
+- Change homepage route
+- Modular approach: Areas
+- Modular approach: separate layers
+- Change page title
+- Fix white background on CTA image
