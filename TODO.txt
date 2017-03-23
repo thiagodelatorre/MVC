@@ -1,10 +1,10 @@
 === TODO ===
-- Partial view for Bulleted List
 - Modular approach: Areas
 - Modular approach: Base Classes
 - Modular approach: separate layers
 
 === NTH ===
+- Fix white background on CTA image
 - Use resources files
 - Create CTA as an action link
 - Use bootstrap
@@ -32,3 +32,5 @@
 - Simple one page in Asp.Net C# MVC
 - Partial view for CTA
 - CTA pointing to Google.com
+- Partial view for Bulleted List
+- Image for CTA
