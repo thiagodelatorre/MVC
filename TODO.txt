@@ -6,6 +6,7 @@
 - Remove Service.Bulletin refference from MVC
 
 === NTH ===
+- Create a BulletPointViewModel for the _Bulletin component and use AutoMapper
 - Fix white background on CTA image
 - Use resources files
 - Create CTA as an action link
