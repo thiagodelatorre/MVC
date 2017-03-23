@@ -1,8 +1,11 @@
+=== CHECKLIST ===
+- Review list of Solution Highlights
+- Merge back to master branch
+- Push master to GitHub
+
 === TODO ===
 - Include error handling
 - logger
-- Review list of Solution Highlights
-- Merge back to master branch
 
 === NTH ===
 - Create a Business Layer to isolate the Services from the MVC project
