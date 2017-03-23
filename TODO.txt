@@ -1,7 +1,7 @@
 === TODO ===
 - Review list of Solution Highlights
+- Merge back to master branch
 - Modular approach: Areas
-- Modular approach: Base Classes
 - Modular approach: separate layers
 
 === NTH ===
@@ -35,3 +35,4 @@
 - Partial view for Bulleted List
 - Image for CTA
 - Use bootstrap
+- Modular approach: Base Classes
