@@ -40,6 +40,7 @@ namespace MVC.Controllers
             return PartialView();
         }
 
+        [OutputCache(Duration = 3600)]
         [ChildActionOnly]
         public ActionResult _Bulletin()
         {
