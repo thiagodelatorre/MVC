@@ -3,6 +3,7 @@
 - Merge back to master branch
 - Modular approach: Areas
 - Modular approach: separate layers
+- Remove Service.Bulletin refference from MVC
 
 === NTH ===
 - Fix white background on CTA image

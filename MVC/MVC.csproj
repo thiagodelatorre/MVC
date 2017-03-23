@@ -199,6 +199,10 @@
       <Project>{95628701-accf-40ee-b200-9b07944cc46b}</Project>
       <Name>Models</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Service.Bulletin\Service.Bulletin.csproj">
+      <Project>{4a8c02b1-c6e0-4c24-9435-3eb31a1a6141}</Project>
+      <Name>Service.Bulletin</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
