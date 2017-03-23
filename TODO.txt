@@ -27,6 +27,7 @@
 - Pagination on the BulletPointList
 - Include favicon
 - Create meaninful comments
+- Implement a Global Layout
 
 === DONE ===
 - Simple one page in Asp.Net C# MVC
