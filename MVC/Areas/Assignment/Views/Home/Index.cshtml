@@ -1,0 +1,14 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Assignment/Views/Shared/_Layout.cshtml";
+}
+
+<br />
+<div class="container-fluid">
+    @{Html.RenderAction("_CTA", "Home", new { area = "" });}
+</div>
+
+<div class="container-fluid">
+    @{Html.RenderAction("_Bulletin", "Home", new { area = "" });}
+</div>

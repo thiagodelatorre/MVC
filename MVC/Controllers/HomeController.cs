@@ -7,13 +7,8 @@ using System.Web.Mvc;
 
 namespace MVC.Controllers
 {
-    public class HomeController : Controller
+    public class HomeController : BaseController
     {
-        // GET: Home
-        public ActionResult Index()
-        {
-            return View();
-        }
 
         [ChildActionOnly]
         public ActionResult _CTA()
@@ -54,6 +49,7 @@ namespace MVC.Controllers
                 new BulletPoint { Id=5, Point="Bullet Point List: Annotation used on model (DisplayName)" },
                 new BulletPoint { Id=6, Point="Bullet Point List: Generates from Action as a reusable component" },
                 new BulletPoint { Id=7, Point="Bullet Point List: Uses DisplayTemplates to make it even more reusable" },
+                new BulletPoint { Id=7, Point="Bullet Point List: Uses OutputCache (refreshing every 3600s) as this component just change" },
             };
 
             return PartialView(bulletin);
