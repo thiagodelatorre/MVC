@@ -1,4 +1,5 @@
 === TODO ===
+- Review list of Solution Highlights
 - Modular approach: Areas
 - Modular approach: Base Classes
 - Modular approach: separate layers

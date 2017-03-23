@@ -10,7 +10,7 @@ namespace MVC.Models
     {
         public int Id { get; set; }
 
-        [DisplayName("Best Movies")]
+        [DisplayName("Solution Highlights")]
         public string Point { get; set; }
     }
 }
