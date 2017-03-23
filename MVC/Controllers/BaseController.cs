@@ -14,7 +14,7 @@ namespace MVC.Controllers
 
         public BaseController()
         {
-            _bulletinService = new BulletinService();
+            _bulletinService = new BulletinServiceMock();
         }
     }
 }

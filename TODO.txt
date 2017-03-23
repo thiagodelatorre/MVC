@@ -4,6 +4,8 @@
 - Modular approach: Areas
 - Modular approach: separate layers
 - Remove Service.Bulletin refference from MVC
+- Change page title
+- Change homepage route
 
 === NTH ===
 - Create a BulletPointViewModel for the _Bulletin component and use AutoMapper
