@@ -1,11 +1,8 @@
 === TODO ===
-- Simple one page in Asp.Net C# MVC
-- Partial view for CTA
 - Partial view for Bulleted List
 - Modular approach: Areas
 - Modular approach: Base Classes
 - Modular approach: separate layers
-- CTA pointing to Google.com
 
 === NTH ===
 - Use resources files
@@ -32,3 +29,6 @@
 - Create meaninful comments
 
 === DONE ===
+- Simple one page in Asp.Net C# MVC
+- Partial view for CTA
+- CTA pointing to Google.com
