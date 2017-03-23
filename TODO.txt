@@ -11,9 +11,6 @@
 - Use resources files
 - Create CTA as an action link
 - Change namespace
-- Move CTA and BulletPoint views to a shared Area (or leave them alone on the root)
-- Define presentation type for BulletPoint
-- Create 'Click here' image
 - caching
 - endpoint for CTA
 - Google Analytics
@@ -23,7 +20,6 @@
 - Multi-language
 - IoC
 - logger
-- automapper
 - profiler
 - WCAG compliance
 - Pagination on the BulletPointList
@@ -35,6 +31,9 @@
 - Partial view for CTA
 - CTA pointing to Google.com
 - Partial view for Bulleted List
+- Define presentation type for BulletPoint
 - Image for CTA
 - Use bootstrap
 - Modular approach: Base Classes
+- Move CTA and BulletPoint views to a shared Area (or leave them alone on the root)
+- Create 'Click here' image
