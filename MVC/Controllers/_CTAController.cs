@@ -7,7 +7,7 @@ using System.Web.Mvc;
 
 namespace MVC.Controllers
 {
-    public class HomeController : BaseController
+    public class _CTAController : BaseController
     {
 
         [ChildActionOnly]
@@ -33,13 +33,6 @@ namespace MVC.Controllers
             ViewBag.message = message;
 
             return PartialView();
-        }
-
-        [OutputCache(Duration = 3600)]
-        [ChildActionOnly]
-        public ActionResult _Bulletin()
-        {
-            return PartialView(_bulletinService.getBulletPoints());
         }
     }
 }
