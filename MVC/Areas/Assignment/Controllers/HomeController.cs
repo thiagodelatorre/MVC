@@ -14,5 +14,10 @@ namespace MVC.Areas.Assignment.Controllers
         {
             return View();
         }
+
+        public ActionResult Exception()
+        {
+            throw new System.Exception("Unexpected error");
+        }
     }
 }

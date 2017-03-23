@@ -12,6 +12,7 @@ namespace MVC
     {
         protected void Application_Start()
         {
+            RouteTable.Routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
             AreaRegistration.RegisterAllAreas();
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
