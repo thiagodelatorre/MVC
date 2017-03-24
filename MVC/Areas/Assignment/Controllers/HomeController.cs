@@ -12,7 +12,8 @@ namespace MVC.Areas.Assignment.Controllers
         // GET: Assignment/Home
         public ActionResult Index()
         {
-            return View();
+            // using View full name because of http://stackoverflow.com/questions/2140208/how-to-set-a-default-route-to-an-area-in-mvc
+            return View("~/Areas/Assignment/Views/Home/Index.cshtml");
         }
 
         //public ActionResult Exception()

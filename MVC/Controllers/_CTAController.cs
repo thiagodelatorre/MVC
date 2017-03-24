@@ -36,5 +36,11 @@ namespace MVC.Controllers
 
             return PartialView();
         }
+
+        public ActionResult Action()
+        {
+            // Implement here the logic to select diferent targets and/or gather statistics
+            return Redirect("//google.com");
+        }
     }
 }

@@ -17,7 +17,7 @@ namespace MVC.Areas.Assignment
             // Please observe how the area is being accepted as empty. This implies that the empty route uses the "Assignment_default", don't use it on other Areas
             context.MapRoute(
                 "Assignment_default",
-                "{area}/{controller}/{action}/{id}",
+                "Assignment/{controller}/{action}/{id}",
                 new { area = "Assignment", controller = "Home", action = "Index", id = UrlParameter.Optional }
             );
         }

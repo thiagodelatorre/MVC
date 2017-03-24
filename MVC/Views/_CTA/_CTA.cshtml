@@ -2,5 +2,5 @@
     <h1>Dynamic CTA</h1>
     <p>At each load the phrase bellow is randomly selected:</p>
     <p>@ViewBag.message</p>
-    <a href="//google.com" role="button"><img class="cta-icon" src="~/Content/printable-go-sign.png" alt="Tell More!"/></a>
+    <a href="@Url.Action("Action", "_CTA")" role="button"><img class="cta-icon" src="~/Content/printable-go-sign.png" alt="Tell More!"/></a>
 </div>
