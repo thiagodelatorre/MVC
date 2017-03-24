@@ -49,16 +49,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Implementation\BulletinService.cs" />
     <Compile Include="Implementation\BulletinServiceMock.cs" />
     <Compile Include="Interface\IBulletinService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DAL\DAL.csproj">
-      <Project>{8b496fa8-a4b4-437d-861e-64b721a47a56}</Project>
-      <Name>DAL</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Models\Models.csproj">
       <Project>{95628701-accf-40ee-b200-9b07944cc46b}</Project>
       <Name>Models</Name>
