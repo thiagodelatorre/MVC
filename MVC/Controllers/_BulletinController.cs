@@ -2,7 +2,6 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
 using System.Web;
 using System.Web.Mvc;
 
@@ -14,9 +13,9 @@ namespace MVC.Controllers
         // Because of this issue (http://aspnetwebstack.codeplex.com/workitem/601 ), async/await cannot be used on a ChildActionOnly
         [OutputCache(Duration = 3600)] // Reuses the same view for 1h
         [ChildActionOnly] // Ensure this is used only inside of other Actions
-        public async Task<ActionResult> _Bulletin()
+        public ActionResult _Bulletin()
         {
-            return PartialView(await _bulletinService.getBulletPointsAsync());
+            return PartialView(_bulletinService.getBulletPoints());
         }
     }
 }

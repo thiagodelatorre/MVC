@@ -5,7 +5,6 @@ using System.Text;
 using System.Threading.Tasks;
 using Models;
 using DAL;
-using System.Data.Entity;
 
 namespace Service.Bulletin
 {
@@ -27,12 +26,6 @@ namespace Service.Bulletin
         public IEnumerable<BulletPoint> getBulletPoints()
         {
             List<BulletPoint> bulletin = _assignmentContext.BulletPoints.ToList();
-
-            return bulletin;
-        }
-        public async Task<IEnumerable<BulletPoint>> getBulletPointsAsync()
-        {
-            List<BulletPoint> bulletin = await _assignmentContext.BulletPoints.ToListAsync();
 
             return bulletin;
         }
