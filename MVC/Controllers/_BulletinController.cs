@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 using System.Web;
 using System.Web.Mvc;
 
@@ -12,9 +13,9 @@ namespace MVC.Controllers
     {
         [OutputCache(Duration = 3600)] // Reuses the same view for 1h
         [ChildActionOnly] // Ensure this is used only inside of other Actions
-        public ActionResult _Bulletin()
+        public async Task<ActionResult> _Bulletin()
         {
-            return PartialView(_bulletinService.getBulletPoints());
+            return PartialView(await _bulletinService.getBulletPointsAsync());
         }
     }
 }

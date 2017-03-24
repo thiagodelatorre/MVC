@@ -10,5 +10,6 @@ namespace Service.Bulletin
     public interface IBulletinService
     {
         IEnumerable<BulletPoint> getBulletPoints();
+        Task<IEnumerable<BulletPoint>> getBulletPointsAsync();
     }
 }

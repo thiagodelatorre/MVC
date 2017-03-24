@@ -27,5 +27,10 @@ namespace Service.Bulletin
 
             return bulletin;
         }
+
+        public async Task<IEnumerable<BulletPoint>> getBulletPointsAsync()
+        {
+            return getBulletPoints();
+        }
     }
 }
