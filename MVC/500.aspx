@@ -1,4 +1,4 @@
-﻿@Model.Exception.Message
+﻿<% Response.StatusCode = 500 %>
 
 <!DOCTYPE html>
 <html>

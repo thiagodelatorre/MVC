@@ -1,4 +1,4 @@
-﻿@Model.Exception.Message
+﻿<% Response.StatusCode = 404 %>
 
 <!DOCTYPE html>
 <html>
@@ -8,8 +8,9 @@
 </head>
 <body>
     <hgroup>
-        <h1>Error 500</h1>
-        <h2>An error occurred while processing your request.</h2>
+        <h1>Error 404</h1>
+        <h2>We could not find this page.</h2>
+        <a href="/">Open Homepage</a>
     </hgroup>
 </body>
 </html>
